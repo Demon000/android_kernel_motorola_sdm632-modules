@@ -1,6 +1,6 @@
 # add -Wall to try to catch everything we can.
 EXTRA_CFLAGS += -Wall
-EXTRA_CFLAGS += -I$(TOP)/motorola/kernel/modules/include \
+EXTRA_CFLAGS += -I$(KERNEL_SRC)/../sdm632-modules/motorola/include \
 
 
 goodix_fod_mmi-y += gf_spi.o netlink.o platform.o
